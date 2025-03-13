@@ -1,0 +1,12 @@
+{
+    "partial_conversion": {
+        "suggestion": [
+            "Use #121212 as the recommended dark theme surface color.",
+            "Surfaces must be dark enough to support white text readability.",
+            "To create branded dark surfaces, overlay the primary brand color at low opacity over #121212.",
+            "Ensure the background color maintains a contrast ratio of at least 4.5:1 (AA standard) on the highest elevated surfaces.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        ]
+    }
+}

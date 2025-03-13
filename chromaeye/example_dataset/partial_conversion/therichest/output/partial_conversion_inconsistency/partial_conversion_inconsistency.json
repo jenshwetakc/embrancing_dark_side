@@ -1,0 +1,24 @@
+[
+    {
+        "id": "8-WorkWithUs",
+        "file": "8-WorkWithUs_scroll_0_",
+        "scroll_percentage": 0,
+        "partial_conversion_summary": [
+            {
+                "image": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_0_partial_conversion.png",
+                "issue": "Improper conversion detected: Dark mode background appear to be light color,indicating the insufficient changes for dark mode adaptation."
+            }
+        ]
+    },
+    {
+        "id": "8-WorkWithUs",
+        "file": "8-WorkWithUs_scroll_10_",
+        "scroll_percentage": 10,
+        "partial_conversion_summary": [
+            {
+                "image": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_10_partial_conversion.png",
+                "issue": "Improper conversion detected: Dark mode background appear to be light color,indicating the insufficient changes for dark mode adaptation."
+            }
+        ]
+    }
+]
