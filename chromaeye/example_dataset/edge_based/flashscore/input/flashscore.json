@@ -1,0 +1,97 @@
+{
+    "applications": [
+        "flashscore"
+    ],
+    "screenshots": {
+        "nav-FootballLiv": {
+            "id": "nav-FootballLiv",
+            "page_title": "Football Live Scores, Latest Football Results | Flashscore.com",
+            "url": "https://www.flashscore.com/"
+        },
+        "btn-FootballLiv": {
+            "id": "btn-FootballLiv",
+            "page_title": "Football Live Scores, Latest Football Results | Flashscore.com",
+            "url": "https://www.flashscore.com/"
+        },
+        "1-DEC-KOM": {
+            "id": "1-DEC-KOM",
+            "page_title": "DEC - KOM | Decic - Kom Podgorica | Summary",
+            "url": "https://www.flashscore.com/match/SjQeG1vR/#/match-summary"
+        },
+        "2-KomPodgoric": {
+            "id": "2-KomPodgoric",
+            "page_title": "Kom Podgorica live scores, results, fixtures, Decic v Kom Podgorica live | Football, Montenegro",
+            "url": "https://www.flashscore.com/team/kom-podgorica/KvOtDlq5/"
+        },
+        "3-LOV-KOM": {
+            "id": "3-LOV-KOM",
+            "page_title": "LOV - KOM | Lovcen - Kom Podgorica | Summary",
+            "url": "https://www.flashscore.com/match/6oTwPYfm/#/match-summary"
+        },
+        "4-KomPodgoric": {
+            "id": "4-KomPodgoric",
+            "page_title": "Kom Podgorica live scores, results, fixtures, Decic v Kom Podgorica live | Football, Montenegro",
+            "url": "https://www.flashscore.com/team/kom-podgorica/KvOtDlq5/"
+        },
+        "5-NorthernIre": {
+            "id": "5-NorthernIre",
+            "page_title": "Northern Ireland's League - Northern Ireland Football Live Scores, Livescore",
+            "url": "https://www.flashscore.com/football/northern-ireland/"
+        },
+        "1-TSC1-3JAG": {
+            "id": "1-TSC1-3JAG",
+            "page_title": "TSC 1-3 JAG | TSC - Jagiellonia | Summary",
+            "url": "https://www.flashscore.com/match/KM4t8Cz0/#/match-summary/match-summary"
+        },
+        "1-Capixaba202": {
+            "id": "1-Capixaba202",
+            "page_title": "Capixaba 2025 live scores, results, Football Brazil - Flashscore",
+            "url": "https://www.flashscore.com/football/brazil/capixaba/#/jXW4DGBQ/table/overall"
+        },
+        "2-R\u00e9unionFoot": {
+            "id": "2-R\u00e9unionFoot",
+            "page_title": "R\u00e9union Football Live Scores, Livescore",
+            "url": "https://www.flashscore.com/football/reunion/"
+        },
+        "3-TennisNews": {
+            "id": "3-TennisNews",
+            "page_title": "Tennis News, Scores, Highlights | Flashscore News",
+            "url": "https://www.flashscore.com/news/tennis/"
+        },
+        "4-QatarOpen": {
+            "id": "4-QatarOpen",
+            "page_title": "Qatar Open: Marta Kostyuk sends Coco Gauff crashing out, Ekaterina Alexandrova stuns Aryna Sabalenka | Flashscore.com",
+            "url": "https://www.flashscore.com/news/tennis-doha-wta-singles-kostyuk-sends-gauff-crashing-out-of-qatar-open-before-alexandrova-stuns-sabalenka/l6CirLCj/"
+        },
+        "5-ArsenalvWe": {
+            "id": "5-ArsenalvWe",
+            "page_title": "Arsenal v West Ham results, H2H stats | Football - Flashscore",
+            "url": "https://www.flashscore.com/h2h/football/arsenal-hA1Zm19f/west-ham-Cxq57r8g/#/overall"
+        },
+        "1-RealMadrid": {
+            "id": "1-RealMadrid",
+            "page_title": "Real Madrid v Manchester City Livescore | Football - Flashscore",
+            "url": "https://www.flashscore.com/h2h/football/real-madrid-W8mj7MDD/manchester-city-Wtn9Stg0/#/overall"
+        },
+        "2-AsiaAFCFo": {
+            "id": "2-AsiaAFCFo",
+            "page_title": "Asia, AFC Football Live Scores, Livescore",
+            "url": "https://www.flashscore.com/football/asia/"
+        },
+        "3-NEP4-1SYR": {
+            "id": "3-NEP4-1SYR",
+            "page_title": "NEP 4-1 SYR | Nepal - Syria | Summary",
+            "url": "https://www.flashscore.com/match/CrMyvIls/#/match-summary"
+        },
+        "4-NepalWlive": {
+            "id": "4-NepalWlive",
+            "page_title": "Nepal W live scores, results, fixtures, Nepal W v Kyrgyzstan W live | Football, Asia",
+            "url": "https://www.flashscore.com/team/nepal/SS249bHR/"
+        },
+        "5-CAFFootball": {
+            "id": "5-CAFFootball",
+            "page_title": "CAF Football Live Scores, Livescore",
+            "url": "https://www.flashscore.com/football/africa/"
+        }
+    }
+}

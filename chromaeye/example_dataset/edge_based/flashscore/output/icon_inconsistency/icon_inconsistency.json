@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1-RealMadrid",
+        "file": "1-RealMadrid_scroll_10_",
+        "scroll_percentage": 10,
+        "invisible_icon": [
+            {
+                "low_contrast_icon_light": [],
+                "low_contrast_icon_dark": [
+                    {
+                        "contast ratio": 1.3323637836346442
+                    }
+                ],
+                "problematic file": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/edge_based/flashscore/output/icon_inconsistency/1-RealMadrid_scroll_10_icon_inconsistency.png"
+            }
+        ]
+    }
+]

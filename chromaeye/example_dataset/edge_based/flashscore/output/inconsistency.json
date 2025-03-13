@@ -1,0 +1,34 @@
+{
+    "application_name": [
+        "flashscore"
+    ],
+    "edge_inconsistency": {
+        "pages": [
+            {
+                "url": "https://www.flashscore.com/h2h/football/real-madrid-W8mj7MDD/manchester-city-Wtn9Stg0/#/overall",
+                "page_title": "Real Madrid v Manchester City Livescore | Football - Flashscore",
+                "edge_inconsistencies": [
+                    {
+                        "scroll_percentage": 0,
+                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/edge_based/flashscore/output/edge_inconsistency/edge_overlay/1-RealMadrid_scroll_0__overlay.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "text_inconsistency": {
+        "invisible_text": {
+            "pages": []
+        },
+        "missing_text": {
+            "pages": []
+        }
+    },
+    "partial_conversion": {
+        "pages": []
+    },
+    "icon_inconsistency": {
+        "pages": [
+        ]
+    }
+}
