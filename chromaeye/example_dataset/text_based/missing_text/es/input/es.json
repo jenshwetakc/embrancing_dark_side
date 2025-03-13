@@ -1,0 +1,132 @@
+{
+    "applications": [
+        "es"
+    ],
+    "screenshots": {
+        "nav-Informaci\u00f3n": {
+            "id": "nav-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "btn-Informaci\u00f3n": {
+            "id": "btn-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "1-RandyBorman": {
+            "id": "1-RandyBorman",
+            "page_title": "Randy Borman, el hombre que se convirti\u00f3 en Cof\u00e1n (1955-2025)",
+            "url": "https://es.mongabay.com/2025/02/randy-borman-el-hombre-que-se-convirtio-en-cofan-1955-2025/"
+        },
+        "2-Noticiasamb": {
+            "id": "2-Noticiasamb",
+            "page_title": "Noticias ambientales sobre Amazonia",
+            "url": "https://es.mongabay.com/list/amazonia/"
+        },
+        "3-Destacadas": {
+            "id": "3-Destacadas",
+            "page_title": "Destacadas",
+            "url": "https://es.mongabay.com/destacadas/"
+        },
+        "4-Videos": {
+            "id": "4-Videos",
+            "page_title": "Videos",
+            "url": "https://es.mongabay.com/videos/"
+        },
+        "5-Informaci\u00f3n": {
+            "id": "5-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "6-Venezuelape": {
+            "id": "6-Venezuelape",
+            "page_title": "Venezuela perdi\u00f3 m\u00e1s de 4 millones de hect\u00e1reas de sus ecosistemas naturales en casi cuatro d\u00e9cadas | ESTUDIO",
+            "url": "https://es.mongabay.com/2025/02/venezuela-perdio-millones-de-hectareas-estudio/"
+        },
+        "7-Venezuelape": {
+            "id": "7-Venezuelape",
+            "page_title": "Venezuela perdi\u00f3 m\u00e1s de 4 millones de hect\u00e1reas de sus ecosistemas naturales en casi cuatro d\u00e9cadas | ESTUDIO",
+            "url": "https://es.mongabay.com/2025/02/venezuela-perdio-millones-de-hectareas-estudio/#"
+        },
+        "8-Cardenalito": {
+            "id": "8-Cardenalito",
+            "page_title": "Cardenalito pa\u2019 rato: la batalla de expertos en Venezuela para salvar a un ave en peligro",
+            "url": "https://es.mongabay.com/2025/02/cardenalito-batalla-venezuela-salvar-ave-en-peligro/"
+        },
+        "1-Yousearched": {
+            "id": "1-Yousearched",
+            "page_title": "You searched for - Noticias ambientales",
+            "url": "https://es.mongabay.com/?s=&formats=post+videos+podcasts+shorts+specials"
+        },
+        "2-Pagenotfou": {
+            "id": "2-Pagenotfou",
+            "page_title": "Page not found - Noticias ambientales",
+            "url": "https://es.mongabay.com/articles"
+        },
+        "3-Informaci\u00f3n": {
+            "id": "3-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "4-ManuelRodr\u00ed": {
+            "id": "4-ManuelRodr\u00ed",
+            "page_title": "Manuel Rodr\u00edguez Becerra: \u201cTodav\u00eda necesitamos informaci\u00f3n para confirmar en qu\u00e9 grado el gobierno de Petro ha cumplido los compromisos ambientales\u201d |ENTREVISTA",
+            "url": "https://es.mongabay.com/2025/02/manuel-rodriguez-becerra-petro-compromisos-ambientales-deforestacion-violencia-entrevista/"
+        },
+        "5-Pagenotfou": {
+            "id": "5-Pagenotfou",
+            "page_title": "Page not found - Noticias ambientales",
+            "url": "https://es.mongabay.com/equipo"
+        },
+        "6-Podcasts": {
+            "id": "6-Podcasts",
+            "page_title": "Podcasts",
+            "url": "https://es.mongabay.com/podcasts/"
+        },
+        "7-Art\u00edculos": {
+            "id": "7-Art\u00edculos",
+            "page_title": "Art\u00edculos",
+            "url": "https://es.mongabay.com/articulos/"
+        },
+        "8-Destacadas": {
+            "id": "8-Destacadas",
+            "page_title": "Destacadas",
+            "url": "https://es.mongabay.com/destacadas/"
+        },
+        "1-Encorto": {
+            "id": "1-Encorto",
+            "page_title": "En corto",
+            "url": "https://es.mongabay.com/en-corto/"
+        },
+        "3-Pagenotfou": {
+            "id": "3-Pagenotfou",
+            "page_title": "Page not found - Noticias ambientales",
+            "url": "https://es.mongabay.com/features"
+        },
+        "4-Informaci\u00f3n": {
+            "id": "4-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "5-Osodeanteo": {
+            "id": "5-Osodeanteo",
+            "page_title": "Oso de anteojos: campesinos se unen a cient\u00edficos para proteger la especie",
+            "url": "https://es.mongabay.com/2025/02/oso-de-anteojos-campesinos-cientificos-conservacion/"
+        },
+        "6-Informaci\u00f3n": {
+            "id": "6-Informaci\u00f3n",
+            "page_title": "Informaci\u00f3n sobre conservaci\u00f3n de la naturaleza - Mongabay Latam",
+            "url": "https://es.mongabay.com/"
+        },
+        "7-Pagenotfou": {
+            "id": "7-Pagenotfou",
+            "page_title": "Page not found - Noticias ambientales",
+            "url": "https://es.mongabay.com/shorts"
+        },
+        "8-Pagenotfou": {
+            "id": "8-Pagenotfou",
+            "page_title": "Page not found - Noticias ambientales",
+            "url": "https://es.mongabay.com/features"
+        }
+    }
+}

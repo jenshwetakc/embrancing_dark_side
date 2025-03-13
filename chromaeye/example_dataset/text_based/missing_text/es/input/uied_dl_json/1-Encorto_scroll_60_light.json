@@ -1,0 +1,422 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 29,
+            "width": 30,
+            "position": {
+                "column_min": 18,
+                "row_min": 19,
+                "column_max": 48,
+                "row_max": 48
+            },
+            "missing_in_dark": true
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 16,
+            "width": 16,
+            "position": {
+                "column_min": 242,
+                "row_min": 29,
+                "column_max": 258,
+                "row_max": 45
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 16,
+            "width": 16,
+            "position": {
+                "column_min": 286,
+                "row_min": 29,
+                "column_max": 302,
+                "row_max": 45
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 15,
+            "width": 161,
+            "position": {
+                "column_min": 169,
+                "row_min": 74,
+                "column_max": 330,
+                "row_max": 89
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 102,
+            "width": 200,
+            "position": {
+                "column_min": 60,
+                "row_min": 127,
+                "column_max": 260,
+                "row_max": 229
+            }
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 29,
+            "width": 30,
+            "position": {
+                "column_min": 18,
+                "row_min": 362,
+                "column_max": 48,
+                "row_max": 391
+            },
+            "missing_in_dark": true
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 18,
+            "width": 131,
+            "position": {
+                "column_min": 52,
+                "row_min": 24,
+                "column_max": 183,
+                "row_max": 42
+            },
+            "text_content": "MONGABAY"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 18,
+            "width": 131,
+            "position": {
+                "column_min": 52,
+                "row_min": 366,
+                "column_max": 183,
+                "row_max": 384
+            },
+            "text_content": "MONGABAY",
+            "missing_in_dark": true
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 8,
+            "width": 65,
+            "position": {
+                "column_min": 19,
+                "row_min": 428,
+                "column_max": 84,
+                "row_max": 436
+            },
+            "text_content": "SECCIONES"
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 8,
+            "width": 66,
+            "position": {
+                "column_min": 194,
+                "row_min": 428,
+                "column_max": 260,
+                "row_max": 436
+            },
+            "text_content": "NOSOTROS"
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 11,
+            "width": 48,
+            "position": {
+                "column_min": 18,
+                "row_min": 467,
+                "column_max": 66,
+                "row_max": 478
+            },
+            "text_content": "Videos"
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 12,
+            "width": 64,
+            "position": {
+                "column_min": 194,
+                "row_min": 466,
+                "column_max": 258,
+                "row_max": 478
+            },
+            "text_content": "Nosotros"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 11,
+            "width": 63,
+            "position": {
+                "column_min": 19,
+                "row_min": 498,
+                "column_max": 82,
+                "row_max": 509
+            },
+            "text_content": "Podcasts"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 10,
+            "width": 63,
+            "position": {
+                "column_min": 194,
+                "row_min": 498,
+                "column_max": 257,
+                "row_max": 508
+            },
+            "text_content": "Contacto"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 12,
+            "width": 62,
+            "position": {
+                "column_min": 18,
+                "row_min": 527,
+                "column_max": 80,
+                "row_max": 539
+            },
+            "text_content": "Art\u00edculos"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 10,
+            "width": 44,
+            "position": {
+                "column_min": 194,
+                "row_min": 528,
+                "column_max": 238,
+                "row_max": 538
+            },
+            "text_content": "Donar"
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 15,
+            "width": 70,
+            "position": {
+                "column_min": 20,
+                "row_min": 557,
+                "column_max": 90,
+                "row_max": 572
+            },
+            "text_content": "Especiales"
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 11,
+            "width": 83,
+            "position": {
+                "column_min": 195,
+                "row_min": 558,
+                "column_max": 278,
+                "row_max": 569
+            },
+            "text_content": "Newsletters"
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 11,
+            "width": 58,
+            "position": {
+                "column_min": 20,
+                "row_min": 589,
+                "column_max": 78,
+                "row_max": 600
+            },
+            "text_content": "En corto"
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 12,
+            "width": 145,
+            "position": {
+                "column_min": 19,
+                "row_min": 618,
+                "column_max": 164,
+                "row_max": 630
+            },
+            "text_content": "Historias destacadas"
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 12,
+            "width": 111,
+            "position": {
+                "column_min": 19,
+                "row_min": 648,
+                "column_max": 130,
+                "row_max": 660
+            },
+            "text_content": "M\u00e1s contenidos"
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 17,
+            "width": 113,
+            "position": {
+                "column_min": 194,
+                "row_min": 587,
+                "column_max": 307,
+                "row_max": 604
+            },
+            "text_content": "C\u00f3mo proponer"
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 12,
+            "width": 59,
+            "position": {
+                "column_min": 195,
+                "row_min": 611,
+                "column_max": 254,
+                "row_max": 623
+            },
+            "text_content": "historias"
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 12,
+            "width": 138,
+            "position": {
+                "column_min": 194,
+                "row_min": 641,
+                "column_max": 332,
+                "row_max": 653
+            },
+            "text_content": "Condiciones de uso"
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 9,
+            "width": 115,
+            "position": {
+                "column_min": 20,
+                "row_min": 701,
+                "column_max": 135,
+                "row_max": 710
+            },
+            "text_content": "ENLACES EXTERNOS"
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 8,
+            "width": 94,
+            "position": {
+                "column_min": 195,
+                "row_min": 702,
+                "column_max": 289,
+                "row_max": 710
+            },
+            "text_content": "REDES SOCIALES"
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 15,
+            "width": 122,
+            "position": {
+                "column_min": 18,
+                "row_min": 740,
+                "column_max": 140,
+                "row_max": 755
+            },
+            "text_content": "Wild Madagascar"
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 13,
+            "width": 59,
+            "position": {
+                "column_min": 195,
+                "row_min": 740,
+                "column_max": 254,
+                "row_max": 753
+            },
+            "text_content": "Linkedin"
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 16,
+            "width": 116,
+            "position": {
+                "column_min": 19,
+                "row_min": 769,
+                "column_max": 135,
+                "row_max": 785
+            },
+            "text_content": "Selvas tropicales"
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 13,
+            "width": 69,
+            "position": {
+                "column_min": 195,
+                "row_min": 772,
+                "column_max": 264,
+                "row_max": 785
+            },
+            "text_content": "Instagram"
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 3,
+            "width": 22,
+            "position": {
+                "column_min": 330,
+                "row_min": 29,
+                "column_max": 352,
+                "row_max": 32
+            },
+            "missing_in_light": true
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 3,
+            "width": 19,
+            "position": {
+                "column_min": 330,
+                "row_min": 42,
+                "column_max": 349,
+                "row_max": 45
+            },
+            "missing_in_light": true
+        }
+    ],
+    "img_shape": [
+        800,
+        369,
+        3
+    ]
+}

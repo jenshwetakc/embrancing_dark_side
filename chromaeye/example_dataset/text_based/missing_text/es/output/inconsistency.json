@@ -1,0 +1,47 @@
+{
+    "application_name": [
+        "es"
+    ],
+    "edge_inconsistency": {
+        "pages": [
+            {
+                "url": "https://es.mongabay.com/en-corto/",
+                "page_title": "En corto",
+                "edge_inconsistencies": [
+                    {
+                        "scroll_percentage": 60,
+                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/missing_text/es/output/edge_inconsistency/edge_overlay/1-Encorto_scroll_60__overlay.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "text_inconsistency": {
+        "invisible_text": {
+            "pages": []
+        },
+        "missing_text": {
+            "pages": [
+                {
+                    "url": "https://es.mongabay.com/en-corto/",
+                    "page_title": "En corto",
+                    "missing_text": [
+                        {
+                            "scroll_percentage": 60,
+                            "missing_text_count": 1,
+                            "missing_text_info": [
+                                "MONGABAY"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "partial_conversion": {
+        "pages": []
+    },
+    "icon_inconsistency": {
+        "pages": []
+    }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1-Encorto",
+        "file": "1-Encorto_scroll_60_",
+        "scroll_percentage": 60,
+        "image_directory": [
+            {
+                "edge_overlay": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/missing_text/es/output/edge_inconsistency/edge_overlay/1-Encorto_scroll_60__overlay.png"
+            }
+        ]
+    }
+]

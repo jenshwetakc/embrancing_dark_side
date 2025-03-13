@@ -1,0 +1,24 @@
+{
+    "edge_inconsistency": {
+        "message": "ChromaEye detects edges inconsistency",
+        "suggestion": [
+            "Design surface overlays to reflect different elevation levels in dark mode.",
+            "Elevation overlay transparencies should range from 0% (lowest level) to 16% (highest level).",
+            "Avoid elevation overlays on components that use primary or secondary colors for their surface container.",
+            "Do not use light glows instead of dark shadows to express elevation, as they do not accurately represent elevation like cast shadows.",
+            "Use SVG, WEBP, or PNG formats instead of JPG to support transparency.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        ]
+    },
+    "missing_text": {
+        "message": "ChromaEye detects missing text inconsistency",
+        "suggestion": [
+            "Text must meet a minimum contrast ratio of 4.5:1.",
+            "Ensure proper conversion to support dark mode visibility.",
+            "Avoid text blending with the background, which may create the illusion of missing text.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        ]
+    }
+}
