@@ -1,0 +1,22 @@
+{
+    "application_name": [
+        "axigen"
+    ],
+    "edge_inconsistency": {
+        "pages": []
+    },
+    "text_inconsistency": {
+        "invisible_text": {
+            "pages": []
+        },
+        "missing_text": {
+            "pages": []
+        }
+    },
+    "partial_conversion": {
+        "pages": []
+    },
+    "icon_inconsistency": {
+        "pages": []
+    }
+}

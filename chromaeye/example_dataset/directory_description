@@ -1,0 +1,36 @@
+************** chroma_detection *************************:
+
+############---------Input and output format---------########
+path/chroma_eye/example_dataset/template
+
+1. path/chroma_eye/example_dataset/template/input = input directory
+2. path/chroma_eye/example_dataset/template/input/image/org_size = the screenshot pair that we have collected
+3. path/chroma_eye/example_dataset/template/input/image/uied_size = after running resize_image.py, we resize out collected image to uied size, because after uied detection, it reduce it's our original size of the image.
+4. path/chroma_eye/example_dataset/template/input/ocr = after running upstage_ocr.py ocr detection result save in this directory
+5. path/chroma_eye/example_dataset/template/input/uied_dl_json = after running the combine_uied_ld_detection.py we will get this result
+
+##########-------- output directory------------################
+
+#------edge based detection------
+
+1. path/chroma_eye/example_dataset/template/output/edge_inconsistency = result of the edge based detection
+    a. path/chroma_eye/example_dataset/template/output/edge_inconsistency/edge_overlay = result of edge based detection, where only red or green edge represent the inconsistency.
+    b. path/chroma_eye/example_dataset/template/output/edge_inconsistency/missing_edges = result of edge based detection, which only consist of the missing edges.
+    c. path/chroma_eye/example_dataset/template/output/edge_inconsistency/edge_inconsistency.json = json file, to verify the result, you have to check the json report as well as the edge_overlay, missing_edges
+
+#---------object_based_detection------
+
+2. path/chroma_eye/example_dataset/template/output/icon_inconsistency = result of the object based detection (highlighted with red bounding box)
+
+#--------partial conversion ------
+
+3. path/chroma_eye/example_dataset/template/output/partial_conversion_inconsistency = result of the partial conversion (highlighted with red color)
+
+#--------text inconsistency------
+
+4. /Embracing_dark/chroma_eye/example_dataset/template/output/text_inconsistency = result of text based detection
+    a. path/Embracing_dark/chroma_eye/example_dataset/template/output/text_inconsistency/invisible_text= result of invisible text (highlighted with red bounding box)
+   b. path/chroma_eye/example_dataset/template/output/text_inconsistency/missing_text = result of missing text (highlighted with red bounding box)
+
+#-------------overall inconsistency detection-----------
+5. path/chroma_eye/example_dataset/template/output/inconsistency.json
