@@ -1,0 +1,38 @@
+Data collection directory
+
+
+# directory description:
+
+1. app_with_extension - collect the dataset by using the dark mode extension
+2. extension - consist of the extension file
+3. meta_data - save the visited url while collecting the dataset
+4. native_lightdark_app - collect the dataset of application with native light and dark mode.
+5. chrome driver - for our experiment we have used the chrome diver version (134.0.6998.88 (r1415337), mac-arm64)
+
+## How to ge the chrome driver
+To download the extension:
+1. Go to the link: https://googlechromelabs.github.io/chrome-for-testing/
+2. check your chrome version
+3. download the version of chrome driver as per you chrome version and system(window, macos, linux)
+
+
+# note: we have use add_blocker extension, to minimize the noise, and to minimize the dynamic nature of web application.
+
+# how to run the data collection script.
+
+1. app_with_extension
+    data_with_extension.py
+    Add path:
+    1. extension_path = " " #dark reader
+    2. add_blocker_path = " "
+    3. webdriver_path = " "
+    4. metadata directory =  "metadata_file= "
+    run the script
+
+ 2. native_lightdark_app
+    native_app_datacollection.py
+    Add path:
+    1. add_blocker_path = " "
+    2. webdriver_path = " "
+    3. metadata directory =  "metadata_file= "
+    run the script
