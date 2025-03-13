@@ -1,0 +1,12 @@
+[
+    {
+        "id": "2-DescargarWo",
+        "file": "2-DescargarWo_scroll_100_",
+        "scroll_percentage": 100,
+        "image_directory": [
+            {
+                "edge_overlay": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/edge_inconsistency/edge_overlay/2-DescargarWo_scroll_100__overlay.png"
+            }
+        ]
+    }
+]

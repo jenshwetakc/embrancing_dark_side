@@ -1,0 +1,18 @@
+[
+    {
+        "id": "2-DescargarWo",
+        "file": "2-DescargarWo_scroll_100_",
+        "scroll_percentage": 100,
+        "invisible_icon": [
+            {
+                "low_contrast_icon_light": [],
+                "low_contrast_icon_dark": [
+                    {
+                        "contast ratio": 2.4588511166651323
+                    }
+                ],
+                "problematic file": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/icon_inconsistency/2-DescargarWo_scroll_100_icon_inconsistency.png"
+            }
+        ]
+    }
+]

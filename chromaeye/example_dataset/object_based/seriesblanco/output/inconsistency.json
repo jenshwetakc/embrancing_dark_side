@@ -1,0 +1,48 @@
+{
+    "application_name": [
+        "seriesblanco"
+    ],
+    "edge_inconsistency": {
+        "pages": [
+            {
+                "url": "https://seriesblanco.one/serie/114632/114632/Wolf-Hall-El-Trueno-En-El-Reino-1-Temporada",
+                "page_title": "Descargar Wolf Hall El Trueno En El Reino - 1\u00aa Temporada Torrent sin Publicidad - SeriesBlanco",
+                "edge_inconsistencies": [
+                    {
+                        "scroll_percentage": 100,
+                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/edge_inconsistency/edge_overlay/2-DescargarWo_scroll_100__overlay.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "text_inconsistency": {
+        "invisible_text": {
+            "pages": []
+        },
+        "missing_text": {
+            "pages": []
+        }
+    },
+    "partial_conversion": {
+        "pages": []
+    },
+    "icon_inconsistency": {
+        "pages": [
+            {
+                "url": "https://seriesblanco.one/serie/114632/114632/Wolf-Hall-El-Trueno-En-El-Reino-1-Temporada",
+                "page_title": "Descargar Wolf Hall El Trueno En El Reino - 1\u00aa Temporada Torrent sin Publicidad - SeriesBlanco",
+                "invisible_icons": [
+                    {
+                        "scroll_percentage": 100,
+                        "file_name": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/icon_inconsistency/2-DescargarWo_scroll_100_icon_inconsistency.png",
+                        "low_contrast_icon_light": [],
+                        "low_contrast_icon_dark": [
+                            2.4588511166651323
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
