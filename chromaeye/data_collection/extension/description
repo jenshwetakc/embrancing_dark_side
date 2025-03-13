@@ -1,0 +1,10 @@
+This directory will have all the extension that will have used in our experiment.
+
+
+To get the extension from the webstore
+1. visit this link: https://chromewebstore.google.com/category/extensions
+1. you can search for crx extension and add to your browser.
+2. search for your target dark mode extension, right click you will see the get CRX of this extension
+3. download the extension
+4. add to this directory
+5. test datacollection
