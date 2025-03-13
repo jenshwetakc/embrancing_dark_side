@@ -1,0 +1,105 @@
+{
+    "failed_texts_light": [],
+    "failed_texts_dark": [
+        {
+            "mode": "dark",
+            "text": "Published:",
+            "rgb_text_color": [
+                73.0,
+                89.0,
+                99.0
+            ],
+            "rgb_background_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "text_color": "#485761",
+            "background_color": "#202124",
+            "contrast_ratio": 2.1552930839046347,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Color contrast issue",
+            "bounding_box": [
+                48,
+                2423,
+                247,
+                2459
+            ]
+        },
+        {
+            "mode": "dark",
+            "text": "December",
+            "rgb_text_color": [
+                73.0,
+                89.0,
+                99.0
+            ],
+            "rgb_background_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "text_color": "#485862",
+            "background_color": "#202124",
+            "contrast_ratio": 2.1831721038404392,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Color contrast issue",
+            "bounding_box": [
+                256,
+                2423,
+                463,
+                2461
+            ]
+        },
+        {
+            "mode": "dark",
+            "text": "12,",
+            "rgb_text_color": [
+                73.0,
+                89.0,
+                99.0
+            ],
+            "rgb_background_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "text_color": "#485862",
+            "background_color": "#202124",
+            "contrast_ratio": 2.1831721038404392,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Color contrast issue",
+            "bounding_box": [
+                471,
+                2425,
+                524,
+                2462
+            ]
+        },
+        {
+            "mode": "dark",
+            "text": "2024",
+            "rgb_text_color": [
+                73.0,
+                89.0,
+                99.0
+            ],
+            "rgb_background_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "text_color": "#485862",
+            "background_color": "#202124",
+            "contrast_ratio": 2.1831721038404392,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Color contrast issue",
+            "bounding_box": [
+                531,
+                2424,
+                630,
+                2459
+            ]
+        }
+    ]
+}

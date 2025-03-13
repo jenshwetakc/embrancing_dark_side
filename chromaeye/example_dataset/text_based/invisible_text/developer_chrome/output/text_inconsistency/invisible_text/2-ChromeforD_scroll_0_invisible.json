@@ -1,0 +1,55 @@
+{
+    "failed_texts_light": [],
+    "failed_texts_dark": [
+        {
+            "mode": "dark",
+            "text": "Made",
+            "rgb_text_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "rgb_background_color": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "text_color": "#18191b",
+            "background_color": "#000000",
+            "contrast_ratio": 1.193716685895894,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Dark text on dark background",
+            "bounding_box": [
+                240,
+                1434,
+                953,
+                1642
+            ]
+        },
+        {
+            "mode": "dark",
+            "text": "Easier.",
+            "rgb_text_color": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rgb_background_color": [
+                32.0,
+                33.0,
+                36.0
+            ],
+            "text_color": "#080809",
+            "background_color": "#202124",
+            "contrast_ratio": 1.2434981407188694,
+            "failure_reason": "text inconsistency",
+            "failure_category": "Dark text on dark background",
+            "bounding_box": [
+                185,
+                1746,
+                990,
+                1959
+            ]
+        }
+    ]
+}

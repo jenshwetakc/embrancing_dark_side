@@ -1,0 +1,26 @@
+[
+    {
+        "page_url": "https://developer.chrome.com/",
+        "repaired_texts": [
+            {
+                "text": "Made Easier.",
+                "original_text_color": "#000000",
+                "repaired_text_color": "#8b8b8b",
+                "background_color": "#202124"
+            }
+        ],
+        "unfixed_texts": []
+    },
+    {
+        "page_url": "https://developer.chrome.com/docs/ai/get-started",
+        "repaired_texts": [
+            {
+                "text": "Published: December 12, 2024",
+                "original_text_color": "#455a64",
+                "repaired_text_color": "#70909f",
+                "background_color": "#202124"
+            }
+        ],
+        "unfixed_texts": []
+    }
+]

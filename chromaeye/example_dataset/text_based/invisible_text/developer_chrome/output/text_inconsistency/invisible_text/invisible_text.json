@@ -1,0 +1,104 @@
+[
+    {
+        "id": "2-ChromeforD",
+        "file": "2-ChromeforD_scroll_0_",
+        "scroll_percentage": 0,
+        "invisible_text_summary": [
+            {
+                "File": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/2-ChromeforD_scroll_0_invisible.png",
+                "Light mode failed text count": 0,
+                "Dark mode failed text count": 2,
+                "Light mode failed text": [],
+                "Dark mode failed text": [
+                    {
+                        "text": "Made",
+                        "contrast_ratio": 1.193716685895894,
+                        "text_color": "#18191b",
+                        "background_color": "#000000",
+                        "bounding_box": [
+                            240,
+                            1434,
+                            953,
+                            1642
+                        ]
+                    },
+                    {
+                        "text": "Easier.",
+                        "contrast_ratio": 1.2434981407188694,
+                        "text_color": "#080809",
+                        "background_color": "#202124",
+                        "bounding_box": [
+                            185,
+                            1746,
+                            990,
+                            1959
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4-Getstarted",
+        "file": "4-Getstarted_scroll_0_",
+        "scroll_percentage": 0,
+        "invisible_text_summary": [
+            {
+                "File": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/4-Getstarted_scroll_0_invisible.png",
+                "Light mode failed text count": 0,
+                "Dark mode failed text count": 4,
+                "Light mode failed text": [],
+                "Dark mode failed text": [
+                    {
+                        "text": "Published:",
+                        "contrast_ratio": 2.1552930839046347,
+                        "text_color": "#485761",
+                        "background_color": "#202124",
+                        "bounding_box": [
+                            48,
+                            2423,
+                            247,
+                            2459
+                        ]
+                    },
+                    {
+                        "text": "December",
+                        "contrast_ratio": 2.1831721038404392,
+                        "text_color": "#485862",
+                        "background_color": "#202124",
+                        "bounding_box": [
+                            256,
+                            2423,
+                            463,
+                            2461
+                        ]
+                    },
+                    {
+                        "text": "12,",
+                        "contrast_ratio": 2.1831721038404392,
+                        "text_color": "#485862",
+                        "background_color": "#202124",
+                        "bounding_box": [
+                            471,
+                            2425,
+                            524,
+                            2462
+                        ]
+                    },
+                    {
+                        "text": "2024",
+                        "contrast_ratio": 2.1831721038404392,
+                        "text_color": "#485862",
+                        "background_color": "#202124",
+                        "bounding_box": [
+                            531,
+                            2424,
+                            630,
+                            2459
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

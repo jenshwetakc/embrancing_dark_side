@@ -1,0 +1,157 @@
+{
+    "applications": [
+        "developer"
+    ],
+    "screenshots": {
+        "nav-Versionsele": {
+            "id": "nav-Versionsele",
+            "page_title": "Version selection \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/version-selection"
+        },
+        "btn-Versionsele": {
+            "id": "btn-Versionsele",
+            "page_title": "Version selection \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/version-selection"
+        },
+        "1-Versionsele": {
+            "id": "1-Versionsele",
+            "page_title": "Version selection \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/version-selection"
+        },
+        "2-\u09b8\u09b8\u0995\u09b0\u09a3\u09a8\u09b0": {
+            "id": "2-\u09b8\u09b8\u0995\u09b0\u09a3\u09a8\u09b0",
+            "page_title": "\u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u099a\u09a8 \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/version-selection?hl=bn"
+        },
+        "3-Canary\u00a0\u00a0C": {
+            "id": "3-Canary\u00a0\u00a0C",
+            "page_title": "Canary \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/canary"
+        },
+        "4-\uce74\ub098\ub9ac\uc544\u00a0\u00a0Chr": {
+            "id": "4-\uce74\ub098\ub9ac\uc544\u00a0\u00a0Chr",
+            "page_title": "\uce74\ub098\ub9ac\uc544 \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/downloads/canary?hl=ko"
+        },
+        "5-Clickingiss": {
+            "id": "5-Clickingiss",
+            "page_title": "Clicking issues \u00a0|\u00a0 ChromeDriver \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/chromedriver/help/clicking-issues"
+        },
+        "1-WebPlatform": {
+            "id": "1-WebPlatform",
+            "page_title": "Web Platform \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/web-platform"
+        },
+        "2-ChromeforD": {
+            "id": "2-ChromeforD",
+            "page_title": "Chrome for Developers",
+            "url": "https://developer.chrome.com/"
+        },
+        "3-ArtificialI": {
+            "id": "3-ArtificialI",
+            "page_title": "Artificial Intelligence \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/ai"
+        },
+        "4-Getstarted": {
+            "id": "4-Getstarted",
+            "page_title": "Get started with built-in AI \u00a0|\u00a0 AI on Chrome \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/ai/get-started"
+        },
+        "5-Performance": {
+            "id": "5-Performance",
+            "page_title": "Performance \u00a0|\u00a0 Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/performance"
+        },
+        "nav-Learnwebde": {
+            "id": "nav-Learnwebde",
+            "page_title": "Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+        },
+        "btn-Learnwebde": {
+            "id": "btn-Learnwebde",
+            "page_title": "Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+        },
+        "1-Introduction": {
+            "id": "1-Introduction",
+            "page_title": "Introduction to the server side - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction"
+        },
+        "2-Workingwith": {
+            "id": "2-Workingwith",
+            "page_title": "Working with JSON - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON"
+        },
+        "3-Headingsand": {
+            "id": "3-Headingsand",
+            "page_title": "Headings and paragraphs in HTML - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs"
+        },
+        "4-Headingsand": {
+            "id": "4-Headingsand",
+            "page_title": "Headings and paragraphs in HTML - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs#languages-switcher-button"
+        },
+        "5-BasicCSSse": {
+            "id": "5-BasicCSSse",
+            "page_title": "Basic CSS selectors - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors"
+        },
+        "6-Whatsinth": {
+            "id": "6-Whatsinth",
+            "page_title": "What's in the head? Webpage metadata - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata"
+        },
+        "7-Headingsand": {
+            "id": "7-Headingsand",
+            "page_title": "Headings and paragraphs in HTML - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs"
+        },
+        "8-Understandin": {
+            "id": "8-Understandin",
+            "page_title": "Understanding client-side web development tools - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools"
+        },
+        "1-ExpressTuto": {
+            "id": "1-ExpressTuto",
+            "page_title": "Express Tutorial Part 2: Creating a skeleton website - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website"
+        },
+        "2-DjangoTutor": {
+            "id": "2-DjangoTutor",
+            "page_title": "Django Tutorial Part 4: Django admin site - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Admin_site"
+        },
+        "3-DjangoTutor": {
+            "id": "3-DjangoTutor",
+            "page_title": "Django Tutorial Part 4: Django admin site - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Admin_site#configure_list_views"
+        },
+        "4-DjangoWebF": {
+            "id": "4-DjangoWebF",
+            "page_title": "Django Web Framework (Python) - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django"
+        },
+        "5-Thebusiness": {
+            "id": "5-Thebusiness",
+            "page_title": "The business case for web performance - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/business_case_for_performance"
+        },
+        "6-Introducing": {
+            "id": "6-Introducing",
+            "page_title": "Introducing asynchronous JavaScript - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Introducing"
+        },
+        "7-Responsived": {
+            "id": "7-Responsived",
+            "page_title": "Responsive design - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+        },
+        "8-Objectproto": {
+            "id": "8-Objectproto",
+            "page_title": "Object prototypes - Learn web development | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes"
+        }
+    }
+}

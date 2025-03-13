@@ -1,0 +1,149 @@
+{
+    "application_name": [
+        "developer"
+    ],
+    "edge_inconsistency": {
+        "pages": [
+            {
+                "url": "https://developer.chrome.com/docs/ai/get-started",
+                "page_title": "Get started with built-in AI \u00a0|\u00a0 AI on Chrome \u00a0|\u00a0 Chrome for Developers",
+                "edge_inconsistencies": [
+                    {
+                        "scroll_percentage": 0,
+                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/edge_inconsistency/edge_overlay/4-Getstarted_scroll_0__overlay.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "text_inconsistency": {
+        "invisible_text": {
+            "pages": [
+                {
+                    "url": "https://developer.chrome.com/",
+                    "page_title": "Chrome for Developers",
+                    "failed_text": [
+                        {
+                            "scroll_percentage": 0,
+                            "out_dir": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/2-ChromeforD_scroll_0_invisible.png",
+                            "light_mode_failed_text": 0,
+                            "dark_mode_failed_text": 2,
+                            "failed_text": [
+                                {
+                                    "text": "Made",
+                                    "bounding_box": [
+                                        240,
+                                        1434,
+                                        953,
+                                        1642
+                                    ],
+                                    "contrast_ratio": 1.193716685895894,
+                                    "text_color": "#18191b",
+                                    "background_color": "#000000"
+                                },
+                                {
+                                    "text": "Easier.",
+                                    "bounding_box": [
+                                        185,
+                                        1746,
+                                        990,
+                                        1959
+                                    ],
+                                    "contrast_ratio": 1.2434981407188694,
+                                    "text_color": "#080809",
+                                    "background_color": "#202124"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "https://developer.chrome.com/docs/ai/get-started",
+                    "page_title": "Get started with built-in AI \u00a0|\u00a0 AI on Chrome \u00a0|\u00a0 Chrome for Developers",
+                    "failed_text": [
+                        {
+                            "scroll_percentage": 0,
+                            "out_dir": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/4-Getstarted_scroll_0_invisible.png",
+                            "light_mode_failed_text": 0,
+                            "dark_mode_failed_text": 4,
+                            "failed_text": [
+                                {
+                                    "text": "Published:",
+                                    "bounding_box": [
+                                        48,
+                                        2423,
+                                        247,
+                                        2459
+                                    ],
+                                    "contrast_ratio": 2.1552930839046347,
+                                    "text_color": "#485761",
+                                    "background_color": "#202124"
+                                },
+                                {
+                                    "text": "December",
+                                    "bounding_box": [
+                                        256,
+                                        2423,
+                                        463,
+                                        2461
+                                    ],
+                                    "contrast_ratio": 2.1831721038404392,
+                                    "text_color": "#485862",
+                                    "background_color": "#202124"
+                                },
+                                {
+                                    "text": "12,",
+                                    "bounding_box": [
+                                        471,
+                                        2425,
+                                        524,
+                                        2462
+                                    ],
+                                    "contrast_ratio": 2.1831721038404392,
+                                    "text_color": "#485862",
+                                    "background_color": "#202124"
+                                },
+                                {
+                                    "text": "2024",
+                                    "bounding_box": [
+                                        531,
+                                        2424,
+                                        630,
+                                        2459
+                                    ],
+                                    "contrast_ratio": 2.1831721038404392,
+                                    "text_color": "#485862",
+                                    "background_color": "#202124"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "missing_text": {
+            "pages": []
+        }
+    },
+    "partial_conversion": {
+        "pages": []
+    },
+    "icon_inconsistency": {
+        "pages": [
+            {
+                "url": "https://developer.chrome.com/",
+                "page_title": "Chrome for Developers",
+                "invisible_icons": [
+                    {
+                        "scroll_percentage": 0,
+                        "file_name": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/icon_inconsistency/2-ChromeforD_scroll_0_icon_inconsistency.png",
+                        "low_contrast_icon_light": [],
+                        "low_contrast_icon_dark": [
+                            1.2811018566274979
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

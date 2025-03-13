@@ -1,0 +1,425 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 17,
+            "width": 17,
+            "position": {
+                "column_min": 57,
+                "row_min": 14,
+                "column_max": 74,
+                "row_max": 31
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 17,
+            "width": 18,
+            "position": {
+                "column_min": 261,
+                "row_min": 14,
+                "column_max": 279,
+                "row_max": 31
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 7,
+            "width": 17,
+            "position": {
+                "column_min": 21,
+                "row_min": 22,
+                "column_max": 38,
+                "row_max": 29
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 9,
+            "width": 6,
+            "position": {
+                "column_min": 57,
+                "row_min": 138,
+                "column_max": 63,
+                "row_max": 147
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 9,
+            "width": 6,
+            "position": {
+                "column_min": 110,
+                "row_min": 138,
+                "column_max": 116,
+                "row_max": 147
+            }
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 9,
+            "width": 6,
+            "position": {
+                "column_min": 211,
+                "row_min": 138,
+                "column_max": 217,
+                "row_max": 147
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 15,
+            "width": 15,
+            "position": {
+                "column_min": 121,
+                "row_min": 171,
+                "column_max": 136,
+                "row_max": 186
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 15,
+            "width": 16,
+            "position": {
+                "column_min": 148,
+                "row_min": 174,
+                "column_max": 164,
+                "row_max": 189
+            }
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 35,
+            "width": 50,
+            "position": {
+                "column_min": 64,
+                "row_min": 245,
+                "column_max": 114,
+                "row_max": 280
+            }
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 62,
+            "width": 62,
+            "position": {
+                "column_min": 18,
+                "row_min": 667,
+                "column_max": 80,
+                "row_max": 729
+            }
+        },
+        {
+            "id": 10,
+            "class": "Compo",
+            "height": 21,
+            "width": 22,
+            "position": {
+                "column_min": 94,
+                "row_min": 698,
+                "column_max": 116,
+                "row_max": 719
+            }
+        },
+        {
+            "id": 11,
+            "class": "Compo",
+            "height": 21,
+            "width": 21,
+            "position": {
+                "column_min": 124,
+                "row_min": 698,
+                "column_max": 145,
+                "row_max": 719
+            }
+        },
+        {
+            "id": 12,
+            "class": "Compo",
+            "height": 19,
+            "width": 22,
+            "position": {
+                "column_min": 154,
+                "row_min": 699,
+                "column_max": 176,
+                "row_max": 718
+            }
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 17,
+            "width": 161,
+            "position": {
+                "column_min": 82,
+                "row_min": 12,
+                "column_max": 243,
+                "row_max": 29
+            },
+            "text_content": "chrome for developers a"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 14,
+            "width": 43,
+            "position": {
+                "column_min": 302,
+                "row_min": 15,
+                "column_max": 345,
+                "row_max": 29
+            },
+            "text_content": "Sign in"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 15,
+            "width": 118,
+            "position": {
+                "column_min": 14,
+                "row_min": 72,
+                "column_max": 132,
+                "row_max": 87
+            },
+            "text_content": "Al on Chrome"
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 9,
+            "width": 33,
+            "position": {
+                "column_min": 15,
+                "row_min": 137,
+                "column_max": 48,
+                "row_max": 146
+            },
+            "text_content": "Home"
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 9,
+            "width": 28,
+            "position": {
+                "column_min": 73,
+                "row_min": 137,
+                "column_max": 101,
+                "row_max": 146
+            },
+            "text_content": "Docs"
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 9,
+            "width": 76,
+            "position": {
+                "column_min": 126,
+                "row_min": 137,
+                "column_max": 202,
+                "row_max": 146
+            },
+            "text_content": "Al on Chrome"
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 9,
+            "width": 38,
+            "position": {
+                "column_min": 228,
+                "row_min": 137,
+                "column_max": 266,
+                "row_max": 146
+            },
+            "text_content": "Built in"
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 12,
+            "width": 95,
+            "position": {
+                "column_min": 13,
+                "row_min": 174,
+                "column_max": 108,
+                "row_max": 186
+            },
+            "text_content": "Was this helpful ?"
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 22,
+            "width": 323,
+            "position": {
+                "column_min": 15,
+                "row_min": 211,
+                "column_max": 338,
+                "row_max": 233
+            },
+            "text_content": "Get started with built in"
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 21,
+            "width": 28,
+            "position": {
+                "column_min": 14,
+                "row_min": 251,
+                "column_max": 42,
+                "row_max": 272
+            },
+            "text_content": "Al"
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 18,
+            "width": 90,
+            "position": {
+                "column_min": 37,
+                "row_min": 316,
+                "column_max": 127,
+                "row_max": 334
+            },
+            "text_content": "On this page"
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 13,
+            "width": 94,
+            "position": {
+                "column_min": 38,
+                "row_min": 360,
+                "column_max": 132,
+                "row_max": 373
+            },
+            "text_content": "Requirements"
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 10,
+            "width": 50,
+            "position": {
+                "column_min": 49,
+                "row_min": 402,
+                "column_max": 99,
+                "row_max": 412
+            },
+            "text_content": "Models"
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 10,
+            "width": 66,
+            "position": {
+                "column_min": 49,
+                "row_min": 444,
+                "column_max": 115,
+                "row_max": 454
+            },
+            "text_content": "Hardware"
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 14,
+            "width": 89,
+            "position": {
+                "column_min": 37,
+                "row_min": 484,
+                "column_max": 126,
+                "row_max": 498
+            },
+            "text_content": "Start building"
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 11,
+            "width": 145,
+            "position": {
+                "column_min": 49,
+                "row_min": 527,
+                "column_max": 194,
+                "row_max": 538
+            },
+            "text_content": "Use APIs on localhost"
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 17,
+            "width": 127,
+            "position": {
+                "column_min": 37,
+                "row_min": 566,
+                "column_max": 164,
+                "row_max": 583
+            },
+            "text_content": "Standards process"
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 15,
+            "width": 189,
+            "position": {
+                "column_min": 38,
+                "row_min": 609,
+                "column_max": 227,
+                "row_max": 624
+            },
+            "text_content": "Engage and share feedback"
+        },
+        {
+            "id": 31,
+            "class": "Text",
+            "height": 16,
+            "width": 126,
+            "position": {
+                "column_min": 95,
+                "row_min": 674,
+                "column_max": 221,
+                "row_max": 690
+            },
+            "text_content": "Alexandra Klepper"
+        },
+        {
+            "id": 32,
+            "class": "Text",
+            "height": 10,
+            "width": 183,
+            "position": {
+                "column_min": 15,
+                "row_min": 766,
+                "column_max": 198,
+                "row_max": 776
+            },
+            "text_content": "Published : December 12 , 2024"
+        }
+    ],
+    "img_shape": [
+        800,
+        369,
+        3
+    ]
+}

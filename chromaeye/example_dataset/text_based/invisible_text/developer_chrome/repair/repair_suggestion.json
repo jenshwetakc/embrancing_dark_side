@@ -1,0 +1,37 @@
+{
+    "edge_inconsistency": {
+        "message": "ChromaEye detects edges inconsistency",
+        "suggestion": [
+            "Design surface overlays to reflect different elevation levels in dark mode.",
+            "Elevation overlay transparencies should range from 0% (lowest level) to 16% (highest level).",
+            "Avoid elevation overlays on components that use primary or secondary colors for their surface container.",
+            "Do not use light glows instead of dark shadows to express elevation, as they do not accurately represent elevation like cast shadows.",
+            "Use SVG, WEBP, or PNG formats instead of JPG to support transparency.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        ]
+    },
+    "icon_inconsistency": {
+        "message": "ChromaEye detects icon inconsistency",
+        "suggestion": [
+            "Icons must meet a minimum contrast ratio of 3:1.",
+            "Desaturated colors improve legibility and reduce visual vibration.",
+            "For dark mode, use lighter tones (200-50) instead of highly saturated tones (900-500) to ensure contrast and usability.",
+            "Consistent use of desaturated colors enhances UI coherence across light and dark themes.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        ]
+    },
+    "invisible_text": {
+        "message": "ChromaEye detects invisible text inconsistency",
+        "suggestion": [
+            "Text must maintain a minimum contrast ratio of 4.5:1 for readability.",
+            "The contrast ratio should be 3:1 for bold and large text, WCAG defines large text as text that is at least 18pt in size, or 14pt if bold.",
+            "Desaturated colors enhance legibility and reduce visual vibration.",
+            "Using lighter tones (200-50) in dark mode instead of saturated tones (900-500) improves usability.",
+            "For more details: https://m2.material.io/design/color/dark-theme.html",
+            "For more details: https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+            "For more details:https://webaim.org/articles/contrast/"
+        ]
+    }
+}
