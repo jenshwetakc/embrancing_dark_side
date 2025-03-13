@@ -42,11 +42,10 @@ def get_image_side_by_side(image_dir, output_dir):
 
 
 
-# Define input and output directories
+# please pass the path of the pairs of screenshot, and output direcotry
 image_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/image/org_size'
 output_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/image/lightdark'
 
-# Run the batch process
 combine_image = get_image_side_by_side(image_dir, output_dir)
 print('easy visualization combine light and dark mode screenshot completed.')
 
