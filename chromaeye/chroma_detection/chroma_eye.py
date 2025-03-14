@@ -28,7 +28,7 @@ from typing import List, Dict, Any
 
 from chromaeye.chroma_detection.edge_based_detection.edge_based import edge_inconsistency
 from chromaeye.chroma_detection.object_based_detection.object_based_detection import icon_inconsistency
-from chromaeye.chroma_detection.partial_conversion.partial_conversion import partial_conversion_inconsistency
+from chromaeye.chroma_detection.partial_conversion_detection.partial_conversion import partial_conversion_inconsistency
 from chromaeye.chroma_detection.text_based_detection.invisible_text import invisible_text_inconsistency
 from chromaeye.chroma_detection.text_based_detection.missing_text import missing_text
 
