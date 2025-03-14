@@ -21,7 +21,7 @@ Run chroma_eye.py
 
 /edge_based_detection/edge_based.py - detect the edge-based inconsistency
 /object_based_detection/object_based_detection.py - detect the object based inconsistency
-/partial_conversion/partial_conversion.py - detect whether the application supports the dark mode throughout the application
+/partial_conversion_detection/partial_conversion.py - detect whether the application supports the dark mode throughout the application
 /chroma_detection/text_based_detection/invisible_text.py - detect invisible text
 /chromaeye/chroma_detection/text_based_detection/missing_text.py - detect missing text
 
