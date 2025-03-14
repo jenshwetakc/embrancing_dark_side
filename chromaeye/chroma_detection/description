@@ -1,0 +1,54 @@
+*************-------Chroma detection---------****************
+
+#######----------Quick inconsistency detection-----------#########
+Select one example from “example_dataset”
+Pass the absolute path chroma_eye.py
+Run the script
+
+#########-----------Run the approach from scratch-----------##
+Collect the dataset
+Please make sure to pass the absolute file path
+Run preprocessing
+check_paris_sc.py - make sure that your screenshot pairs are identical.
+upstage_ocr.py
+Pre-requisites to run the file combine_uied_ld_detection.py
+first, you have to get the uied detection - visit(https://github.com/MulongXie/UIED)
+resize_image.py -Resizes our screenshot as the UIED to match the UIED detection
+Run chroma_eye.py
+
+
+## ----------Each File brief overview---------------##
+
+/edge_based_detection/edge_based.py - detect the edge-based inconsistency
+/object_based_detection/object_based_detection.py - detect the object based inconsistency
+/partial_conversion/partial_conversion.py - detect whether the application supports the dark mode throughout the application
+/chroma_detection/text_based_detection/invisible_text.py - detect invisible text
+/chromaeye/chroma_detection/text_based_detection/missing_text.py - detect missing text
+
+Preprocessing:
+/pre_processing/combine_uied_ld_detection.py - combine the light and dark UIED detection.
+/pre_processing/ocr/upstage_ocr.py - get the ocr detection
+/pre_processing/check_sc_pairs.py - check identical paris of screenshot
+/pre_processing/resize_image.py - res
+/chroma_detection/chroma_eye.py - detect the inconsistency between light and dark mode
+
+
+
+## ------------path to----------------
+ 1. image with normal size
+    image_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/image/org_size'
+
+ 2. json file directory detected using upstage ocr
+    json_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/ocr'
+
+ 3. image directory, resize the image into uied(detection result)
+    uied_json_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/uied_dl_json'
+
+ 4. json file directory from uied detection
+    uied_image_dir = '/chromaeye/example_dataset/edge_based/flashscore/input/image/uied_size'
+
+ 5. meta information of the data that we have collected while collecting the dataset
+    screenshot_meta_data = '/chromaeye/example_dataset/edge_based/flashscore/input/flashscore.json'
+
+ 6. output directory where you want to save the result
+    output_dir = '/chromaeye/example_dataset/edge_based/flashscore/output'
