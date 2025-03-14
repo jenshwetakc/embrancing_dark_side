@@ -1,0 +1,29 @@
+*****************------Chroma repair--------***********
+
+#############----------------Quick repair--------------
+1. Select the inconsistency you want to repair from “example_dataset”
+2. Pass the absolute path and run chroma_repair corresponding to the inconsistency directory.
+
+
+########------------Directory overview----------
+1. object_based
+object_based_repair/chroma_repair.py - pass the absolute path and run the script
+object_based_repair/object_based_repair.py - main function to repair the object-based inconsistency
+
+2. repair suggestion
+repair_suggestion/chroma_repair.py -  pass the absolute path and run the script
+repair_suggestion/chroma_repair_suggestion.py - provides the repair suggestion for each of the four types of inconsistency
+
+3. invisible text
+text_based_repair/ invisible_text_repair/chroma_repair.py - pass the absolute path and run the script
+text_based_repair/ invisible_text_repair/invisible_text_repair.py - repair the invisible text inconsistency
+
+4. missing text
+text_based_repair/missing_text_repair/chroma_repair.py - pass absolute path and run the script
+text_based_repair/missing_text_repair/missing_text_repair.py - repair missing text inconsistency
+
+
+###########-------------------path to----------------
+base_path = inconsistency report from chroma_eye.py
+webdriver_path = "/chromaeye/data_collection/chromedriver"
+add_blocker_path “chromaeye/data_collection/extension/AdBlock — block ads across the web - Chrome Web Store 6.11.1.0.crx”
