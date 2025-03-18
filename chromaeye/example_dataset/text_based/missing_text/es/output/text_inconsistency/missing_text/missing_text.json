@@ -4,7 +4,7 @@
         "file": "1-Encorto_scroll_60_",
         "scroll_percentage": 60,
         "missing_text_summary": {
-            "file": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/missing_text/es/output/text_inconsistency/missing_text/1-Encorto_scroll_60_missing.json",
+            "file": "/chromaeye/example_dataset/text_based/missing_text/es/output/text_inconsistency/missing_text/1-Encorto_scroll_60_missing.json",
             "missing_info": [
                 {
                     "tex_info": "MONGABAY",

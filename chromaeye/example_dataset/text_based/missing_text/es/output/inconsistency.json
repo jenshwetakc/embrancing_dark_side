@@ -10,7 +10,7 @@
                 "edge_inconsistencies": [
                     {
                         "scroll_percentage": 60,
-                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/missing_text/es/output/edge_inconsistency/edge_overlay/1-Encorto_scroll_60__overlay.png"
+                        "image_directory": "/chromaeye/example_dataset/text_based/missing_text/es/output/edge_inconsistency/edge_overlay/1-Encorto_scroll_60__overlay.png"
                     }
                 ]
             }

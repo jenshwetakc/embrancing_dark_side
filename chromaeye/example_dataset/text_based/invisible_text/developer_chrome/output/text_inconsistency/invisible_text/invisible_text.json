@@ -5,7 +5,7 @@
         "scroll_percentage": 0,
         "invisible_text_summary": [
             {
-                "File": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/2-ChromeforD_scroll_0_invisible.png",
+                "File": "/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/2-ChromeforD_scroll_0_invisible.png",
                 "Light mode failed text count": 0,
                 "Dark mode failed text count": 2,
                 "Light mode failed text": [],
@@ -44,7 +44,7 @@
         "scroll_percentage": 0,
         "invisible_text_summary": [
             {
-                "File": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/4-Getstarted_scroll_0_invisible.png",
+                "File": "chromaeye/example_dataset/text_based/invisible_text/developer_chrome/output/text_inconsistency/invisible_text/4-Getstarted_scroll_0_invisible.png",
                 "Light mode failed text count": 0,
                 "Dark mode failed text count": 4,
                 "Light mode failed text": [],

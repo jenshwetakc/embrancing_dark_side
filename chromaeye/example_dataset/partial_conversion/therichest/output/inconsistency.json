@@ -21,11 +21,11 @@
                 "partial_conversion": [
                     {
                         "scroll_percentage": 0,
-                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_0_partial_conversion.png"
+                        "image_directory": "/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_0_partial_conversion.png"
                     },
                     {
                         "scroll_percentage": 10,
-                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_10_partial_conversion.png"
+                        "image_directory": "/chromaeye/example_dataset/partial_conversion/therichest/output/partial_conversion_inconsistency/8-WorkWithUs_scroll_10_partial_conversion.png"
                     }
                 ]
             }

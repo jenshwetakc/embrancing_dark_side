@@ -10,7 +10,7 @@
                 "edge_inconsistencies": [
                     {
                         "scroll_percentage": 0,
-                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/edge_based/flashscore/output/edge_inconsistency/edge_overlay/1-RealMadrid_scroll_0__overlay.png"
+                        "image_directory": "/chromaeye/example_dataset/edge_based/flashscore/output/edge_inconsistency/edge_overlay/1-RealMadrid_scroll_0__overlay.png"
                     }
                 ]
             }
