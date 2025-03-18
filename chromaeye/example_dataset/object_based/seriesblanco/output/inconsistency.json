@@ -10,7 +10,7 @@
                 "edge_inconsistencies": [
                     {
                         "scroll_percentage": 100,
-                        "image_directory": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/edge_inconsistency/edge_overlay/2-DescargarWo_scroll_100__overlay.png"
+                        "image_directory": "/chromaeye/example_dataset/object_based/seriesblanco/output/edge_inconsistency/edge_overlay/2-DescargarWo_scroll_100__overlay.png"
                     }
                 ]
             }
@@ -35,7 +35,7 @@
                 "invisible_icons": [
                     {
                         "scroll_percentage": 100,
-                        "file_name": "/Users/shwetakc/Embracing_dark/chromaeye/example_dataset/object_based/seriesblanco/output/icon_inconsistency/2-DescargarWo_scroll_100_icon_inconsistency.png",
+                        "file_name": "/chromaeye/example_dataset/object_based/seriesblanco/output/icon_inconsistency/2-DescargarWo_scroll_100_icon_inconsistency.png",
                         "low_contrast_icon_light": [],
                         "low_contrast_icon_dark": [
                             2.4588511166651323
