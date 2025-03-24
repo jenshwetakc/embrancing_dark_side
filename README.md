@@ -46,7 +46,7 @@ Our approach detects four types of inconsistency:
 
    - Run chroma_repair.py
 
-   - For more description: /chromaeye/chroma_repair/descrption
+   - For more description: /chromaeye/chroma_repair/description
 
 ## To replicate the work from scratch 
 
