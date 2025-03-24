@@ -1,36 +1,37 @@
 *************-------Chroma detection---------****************
 
 #######----------Quick inconsistency detection-----------#########
-Select one example from “example_dataset”
-Pass the absolute path chroma_eye.py
-Run the script
+1. Select one example from “example_dataset”
+2. Pass the absolute path chroma_eye.py
+3. Run the script
 
 #########-----------Run the approach from scratch-----------##
-Collect the dataset
-Please make sure to pass the absolute file path
-Run preprocessing
-check_paris_sc.py - make sure that your screenshot pairs are identical.
-upstage_ocr.py
-Pre-requisites to run the file combine_uied_ld_detection.py
-first, you have to get the uied detection - visit(https://github.com/MulongXie/UIED)
-resize_image.py -Resizes our screenshot as the UIED to match the UIED detection
-Run chroma_eye.py
+1. Collect the dataset
+2. Please make sure to pass the absolute file path
+3. Run preprocessing in orders
+4. check_paris_sc.py - make sure that your screenshot pairs are identical.
+5. upstage_ocr.py - to get the text detection
+6. Pre-requisites to run the file combine_uied_ld_detection.py
+    - first, you have to get the uied detection - visit(https://github.com/MulongXie/UIED) and run the uied detection
+    - second, resize_image.py -Resizes our screenshot as the UIED to match the UIED detection
+7. Run chroma_eye.py
 
 
 ## ----------Each File brief overview---------------##
 
-/edge_based_detection/edge_based.py - detect the edge-based inconsistency
-/object_based_detection/object_based_detection.py - detect the object based inconsistency
-/partial_conversion_detection/partial_conversion.py - detect whether the application supports the dark mode throughout the application
-/chroma_detection/text_based_detection/invisible_text.py - detect invisible text
-/chromaeye/chroma_detection/text_based_detection/missing_text.py - detect missing text
+1. /edge_based_detection/edge_based.py - detect the edge-based inconsistency
+2. /object_based_detection/object_based_detection.py - detect the object based inconsistency
+3. /partial_conversion_detection/partial_conversion.py - detect whether the application supports the dark mode throughout the application
+4. /chroma_detection/text_based_detection/invisible_text.py - detect invisible text
+5. /chromaeye/chroma_detection/text_based_detection/missing_text.py - detect missing text
 
 Preprocessing:
-/pre_processing/combine_uied_ld_detection.py - combine the light and dark UIED detection.
-/pre_processing/ocr/upstage_ocr.py - get the ocr detection
-/pre_processing/check_sc_pairs.py - check identical paris of screenshot
-/pre_processing/resize_image.py - res
-/chroma_detection/chroma_eye.py - detect the inconsistency between light and dark mode
+# Note: Run the preprocessing in following order:
+1. /pre_processing/check_sc_pairs.py - check identical paris of screenshot
+2. /pre_processing/ocr/upstage_ocr.py - get the ocr detection
+3. /pre_processing/resize_image.py - resize the original screenshot
+4. /pre_processing/combine_uied_ld_detection.py - combine the light and dark UIED detection.
+5. /chroma_detection/chroma_eye.py - detect the inconsistency between light and dark mode
 
 
 
