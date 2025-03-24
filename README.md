@@ -4,10 +4,10 @@
 chromaeye detects GUI inconsistency between light and dark mode in web applications. Inconsistency refers to GUI elements that are not properly converted into dark mode, such as invisible icons and text.
 
 Our approach detects four types of inconsistency:
-1. Edge-based: Check whether the edge of the button border and divider are equally visible in both light and dark modes.
-2. Object-based: check that GUI elements like icon buttons are visible in both light and dark modes.
-3. Text-based (invisible text, missing text): Check whether the text is properly converted in dark mode.
-4. Partial conversion: Check whether the application supports dark mode throughout the application.
+1. Edge-based: check whether the edge of the button border and divider are equally visible in both light and dark modes.
+2. Object-based: check whether the GUI elements like icon buttons are visible in both light and dark modes.
+3. Text-based (invisible text, missing text): check whether the text is properly converted in dark mode.
+4. Partial conversion: check whether the application supports dark mode throughout the application.
 
 
 ## Our environment:
@@ -62,15 +62,16 @@ Our approach detects four types of inconsistency:
 
   -  Verify the identical pairs of screenshots: check_paris_sc.py
 
-  -  Run the upstage OCR: upstage_ocr.py
+  -  Text detection run the upstage OCR: upstage_ocr.py
+
   - Detect GUI element using UIED detection - link(https://github.com/MulongXie/UIED)
 
   - Run: resize_image.py 
 
   - Run: combine_uied_ld_detection.py
 
-- Once you have collected the dataset and performed the preprocessing, 
-- the detection process and repair are the same as quick run
+3. Once you have collected the dataset and performed the preprocessing, 
+   - The detection process and repair are the same as quick run
 
 ## Our experiment dataset is available at https://zenodo.org/records/15050486
 
