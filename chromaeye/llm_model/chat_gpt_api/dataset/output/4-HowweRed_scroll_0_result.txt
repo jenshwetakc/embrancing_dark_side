@@ -1,0 +1,18 @@
+```json
+{
+ "issues": [
+  {
+   "category": "Text",
+   "description": "The text 'How we (Re)designed the Browser • Part 1: Language' has insufficient contrast against the dark background, making it difficult to read.",
+   "bounding_box": [50, 150, 300, 220]
+  },
+  {
+   "category": "Text",
+   "description": "The date 'Jan 17, 2023' has low contrast in the dark mode, reducing readability.",
+   "bounding_box": [100, 100, 250, 140]
+  }
+ ],
+ "verdict": "Inconsistent",
+ "summary": "The dark mode version has text contrast issues affecting readability."
+}
+```
