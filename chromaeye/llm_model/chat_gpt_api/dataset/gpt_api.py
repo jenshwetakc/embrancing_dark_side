@@ -24,7 +24,7 @@ from openai import OpenAI       # OpenAI Python SDK for GPT-4o
 # Please pass your apikey
 client = OpenAI(api_key="")
 # Pass your image folder with light and dark mode screenshot
-INPUT_FOLDER = "/llm_model/chat_gpt_api/gpt_api.py"
+INPUT_FOLDER = "/llm_model/chat_gpt_api/dataset/input"
 # Folder to save outputs and logs
 OUTPUT_FOLDER = "/llm_model/gpt_api/dataset/output"
 # Create output folder if it doesn't exist
