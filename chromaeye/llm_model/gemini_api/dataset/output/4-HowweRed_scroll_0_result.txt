@@ -1,0 +1,18 @@
+```json
+{
+  "issues": [
+    {
+      "category": "Text",
+      "description": "The main heading 'How we (Re)designed the Browser • Part 1: Language' in dark mode uses a muted light gray color (approx. #B3B3B3 on #1C1C1E background, contrast ratio 6.76:1). This makes it significantly less prominent than its pure black counterpart in light mode (contrast ratio 21:1) and also less prominent than other major headings in dark mode, such as 'Browsers are sooo out-dated...' (which uses white text, approx. #FFFFFF on #1C1C1E, contrast ratio 15.65:1). This alters the intended visual hierarchy and reduces the heading's emphasis inconsistently.",
+      "bounding_box": [165, 173, 625, 290]
+    },
+    {
+      "category": "Icons",
+      "description": "The chat bubble icon next to 'Language' in the main heading is darker (approx. #8A8A8E) than the text it accompanies (approx. #B3B3B3) in dark mode. In light mode, the icon and text share the same color (black), maintaining a consistent visual relationship. This discrepancy in dark mode makes the icon appear less connected to the text and reduces its relative prominence compared to the light mode version. While the icon's contrast against the background (4.17:1) meets WCAG 1.4.11 minimum for graphical objects, the inconsistency in its relationship with the associated text is a UX concern.",
+      "bounding_box": [635, 248, 673, 278]
+    }
+  ],
+  "verdict": "Inconsistent",
+  "summary": "The dark mode screenshot exhibits inconsistencies in text emphasis for the primary heading and icon styling relative to associated text, impacting visual hierarchy and consistency with the light theme."
+}
+```
