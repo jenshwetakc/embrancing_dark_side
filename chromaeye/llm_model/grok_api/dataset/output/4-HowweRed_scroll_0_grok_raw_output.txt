@@ -1,0 +1,28 @@
+```json
+{
+ "issues": [
+  {
+   "category": "Text",
+   "description": "The text color in the dark mode version does not have sufficient contrast against the background, making it harder to read. Specifically, the title 'How we (Re)designed the Browser - Part 1: Language' and the body text 'Browsers are sooo out-dated...' have low contrast.",
+   "bounding_box": [20, 100, 340, 300]
+  },
+  {
+   "category": "Borders",
+   "description": "The borders around the 'Get SigmaOS Free' button are less visible in the dark mode version due to the dark background, reducing the button's prominence.",
+   "bounding_box": [20, 320, 340, 400]
+  },
+  {
+   "category": "Icons",
+   "description": "The hamburger menu icon at the top right is less distinguishable in the dark mode due to the color choice, which could affect usability.",
+   "bounding_box": [320, 20, 360, 60]
+  },
+  {
+   "category": "Conversion",
+   "description": "The dark mode version does not maintain the same visual hierarchy as the light mode. The image at the bottom has a different color scheme that does not blend well with the dark background, disrupting the overall theme consistency.",
+   "bounding_box": [20, 420, 340, 600]
+  }
+ ],
+ "verdict": "Inconsistent",
+ "summary": "Several visual and accessibility issues were identified in the dark mode screenshot, including text contrast, border visibility, icon distinction, and theme consistency."
+}
+```
