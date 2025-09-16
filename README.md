@@ -17,7 +17,7 @@ Our approach detects four types of inconsistency:
 
 - Python version: 3.12 
 
-- Chromedriver version: 134.0.6998.88 
+- Chromedriver version: 139.0.7258.66 
 
 
 ## Quick overview of the directory
