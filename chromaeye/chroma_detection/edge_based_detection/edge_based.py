@@ -75,9 +75,9 @@ def edge_difference(light_image, dark_image, edge_overlay_dir, missing_edge_dir)
     edge_count_light =np.count_nonzero(problematic_light)
     edge_count_dark = np.count_nonzero(problematic_dark)
 
-    light_edge_missing= edge_count_light > 250
+    light_edge_missing= edge_count_light > 1500
 
-    dark_edge_missing = edge_count_dark > 250
+    dark_edge_missing = edge_count_dark > 1500
 
     if light_edge_missing or (light_edge_missing and dark_edge_missing):
         edge_difference_summary.append({"edge_overlay": edge_overlay_dir})
