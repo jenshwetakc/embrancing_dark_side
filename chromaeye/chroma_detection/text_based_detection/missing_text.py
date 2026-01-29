@@ -65,41 +65,6 @@ def extract_text_structure(data: Dict[str, Any]) -> List[Dict[str, Any]]:
     return words_info
 
 
-def combine_nearby_boxes(text_elements: List[Dict[str, Any]], max_distance: int = 50) -> List[Dict[str, Any]]:
-    """
-    Combine nearby bounding boxes and their text content if they are close enough.
-    """
-    combined_texts = []
-    used = set()
-
-    for i, element1 in enumerate(text_elements):
-        if i in used:
-            continue
-        current_box = element1['bounding_box']
-        current_text = element1['tex_info']
-        for j, element2 in enumerate(text_elements):
-            if i == j or j in used:
-                continue
-            other_box = element2['bounding_box']
-            # Ensure text is aligned horizontally and height difference is small
-            if abs(current_box[1] - other_box[1]) < 10 and abs(current_box[3] - other_box[3]) < 10:
-                if abs(current_box[2] - other_box[0]) < max_distance:
-                    current_box = [
-                        min(current_box[0], other_box[0]),
-                        min(current_box[1], other_box[1]),
-                        max(current_box[2], other_box[2]),
-                        max(current_box[3], other_box[3]),
-                    ]
-                    current_text += " " + element2['tex_info']
-                    used.add(j)
-
-        combined_texts.append({
-            "tex_info": current_text,
-            "bounding_box": current_box
-        })
-        used.add(i)
-
-    return combined_texts
 
 def compare_light_dark_mode_pixels(light_image, dark_image, bbox, threshold=15):
     """
@@ -168,6 +133,47 @@ def get_contrast_ratio(foreground_color, background_color):
         return (L2 + 0.05) / (L1 + 0.05)
 
 
+def extract_edges(image, bbox, low=10, high=55):
+    """
+    Extract Canny edges from a bounding box region.
+    """
+    x1, y1, x2, y2 = bbox
+    region = image[y1:y2, x1:x2]
+
+    if region.size == 0:
+        return None
+
+    gray = cv2.cvtColor(region, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray, low, high)
+
+    return edges
+
+
+def edge_similarity(light_edges, dark_edges):
+    """
+    Compute edge similarity using intersection-over-union.
+    Returns a value in [0, 1].
+    """
+    if light_edges is None or dark_edges is None:
+        return 0.0
+
+    if light_edges.shape != dark_edges.shape:
+        dark_edges = cv2.resize(dark_edges, light_edges.shape[::-1])
+
+    light_bin = (light_edges > 0).astype(np.uint8)
+    dark_bin = (dark_edges > 0).astype(np.uint8)
+
+    intersection = np.sum(light_bin & dark_bin)
+    union = np.sum(light_bin | dark_bin)
+
+    if union == 0:
+        return 0.0
+
+    return intersection / union
+
+
+
+
 def find_missing_texts(light_texts: List[Dict[str, Any]], dark_texts: List[Dict[str, Any]], light_image, dark_image) -> List[Dict[str, Any]]:
     """
     Find texts in light mode that are missing or mismatched in dark mode based on IoU and occurrences.
@@ -184,6 +190,9 @@ def find_missing_texts(light_texts: List[Dict[str, Any]], dark_texts: List[Dict[
     match_light_indices = set()
 
     for i,light_element in enumerate(light_texts):
+
+        EDGE_SIMILARITY_THRESHOLD = 0.3
+
         # print('all',light_element['content'])
         bbox = light_element['bounding_box']
         # Skip single letters, spaces, commas, or symbols
@@ -229,10 +238,20 @@ def find_missing_texts(light_texts: List[Dict[str, Any]], dark_texts: List[Dict[
 
                 # Compute contrast ratio
                 contrast_ratio = get_contrast_ratio(background_color, text_color)
+                if contrast_ratio < minimum_threshold:
+
+                    light_edges = extract_edges(light_image, bbox)
+                    dark_edges = extract_edges(dark_image, bbox)
+
+                    edge_sim = edge_similarity(light_edges, dark_edges)
+
+                    if edge_sim < EDGE_SIMILARITY_THRESHOLD:
+                        missing_texts.append(light_element)
+
                 # print(contrast_ratio)
                 # Only add to missing texts if contrast is too low
-                if contrast_ratio < minimum_threshold:
-                    missing_texts.append(light_element)
+                # if contrast_ratio < minimum_threshold:
+                #     missing_texts.append(light_element)
 
     return missing_texts
 
@@ -286,6 +305,8 @@ def missing_text(light_image_path: str, dark_image_path: str, light_json_path: s
 
         }
     return summary_data
+
+
 
 
 
