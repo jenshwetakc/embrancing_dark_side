@@ -3,12 +3,14 @@ chromaeye: object based detection
 detect inconsistency for gui component, like button icon that are inconsistent between light and dark mode.
 '''
 
+
 import math
 import os
 import json
 import cv2
 import numpy as np
 from collections import Counter
+
 
 
 def load_json(json_path):
@@ -22,7 +24,6 @@ def get_top_colors(image):
     colors_rgb = [tuple(pixel) for pixel in pixels]
     color_counter = Counter(colors_rgb)
     most_appear = color_counter.most_common(num_colors)
-
     return most_appear
 
 def relative_luminance(color):
@@ -32,7 +33,6 @@ def relative_luminance(color):
     G = G / 12.92 if G <= 0.04045 else ((G + 0.055) / 1.055) ** 2.4
     B = B / 12.92 if B <= 0.04045 else ((B + 0.055) / 1.055) ** 2.4
     return 0.2126 * R + 0.7152 * G + 0.0722 * B
-
 
 def get_contrast_ratio(foreground_color, background_color):
     """Calculate contrast ratio between text and background."""
@@ -45,21 +45,18 @@ def get_contrast_ratio(foreground_color, background_color):
     else:
         return (L2 + 0.05) / (L1 + 0.05)
 
-
 def euclidean_distance(color1, color2):
     '''Calculate the Euclidean distance between two colors in BGR format.'''
     return math.sqrt(sum((c1 - c2) ** 2 for c1, c2 in zip(color1, color2)))
-
 
 def convert_color_format(bgr_color):
     color_rgb = (float(bgr_color[2]), float(bgr_color[1]), float(bgr_color[0]))
     return color_rgb
 
 
-# analyze the contrast ratio based on WCAG guidelines
-def analyze_icon_constrast(image, json_data, draw_bounding_box= False):
+def analyze_icon_contrast(image, json_data):
     wcag_ratio = 2.9
-    failed_ratio = []
+    results = []
 
     for compo in json_data["compos"]:
         if compo["class"] == "Compo" and compo["height"] < 50 and compo["width"] < 50:
@@ -92,8 +89,19 @@ def analyze_icon_constrast(image, json_data, draw_bounding_box= False):
             # Calculate contrast ratio
             ratio = get_contrast_ratio(background_color, foreground_color)
 
-            # Draw a bounding box if the contrast ratio fails the WCAG guidelines
-            if ratio < wcag_ratio and draw_bounding_box:
+            # Try alternative foreground if needed
+            # if ratio < wcag_ratio and remaining_colors:
+            #     candidates = [c[0] for c in remaining_colors]
+            #     new_fg_bgr = max(candidates,
+            #                      key=lambda c: euclidean_distance(background_bgr, c))
+            #     nratio = get_contrast_ratio(background,
+            #                                convert_color_format(new_fg_bgr))
+            #     if nratio < wcag_ratio:
+            #         results.append({
+            #             "bbox": (col_min, row_min, col_max, row_max),
+            #             "ratio": nratio
+            #         })
+            if ratio < wcag_ratio:
                 foreground_color_candidates = [color[0] for color in remaining_colors]
                 if foreground_color_candidates:
                     new_foreground_color_bgr = max(foreground_color_candidates,
@@ -101,11 +109,13 @@ def analyze_icon_constrast(image, json_data, draw_bounding_box= False):
                     new_foreground_color = convert_color_format(new_foreground_color_bgr)
                     new_ratio = get_contrast_ratio(background_color, new_foreground_color)
                     if new_ratio < wcag_ratio:
-                        cv2.rectangle(image, (col_min, row_min), (col_max, row_max), (0, 0, 255), 2)
-                        failed_ratio.append({
-                            "contast ratio": new_ratio
+                        # cv2.rectangle(image, (col_min, row_min), (col_max, row_max), (0, 0, 255), 2)
+                        results.append({
+                            "contrast_ratio": new_ratio,
+                            "bbox": (col_min, row_min, col_max, row_max),\
                         })
-    return image, failed_ratio
+
+    return results
 
 
 def combine_images_side_by_side(image1, image2):
@@ -121,39 +131,88 @@ def load_image(image_path):
     return image
 
 
-def icon_inconsistency(light_image_path: str, dark_image_path: str, json_path: str, output_image_dir: str):
-    final_ratio = []
+def compare_light_dark_mode_pixels(light_image, dark_image, bbox, threshold=15):
+    """
+    Compare pixel values between light and dark mode images for a given bounding box.
 
+    Args:
+        light_image: np.array, light mode image
+        dark_image: np.array, dark mode image
+        bbox: tuple (x1, y1, x2, y2) bounding box
+        threshold: int, mean pixel difference threshold to consider "same"
+
+    Returns:
+        bool: True if pixels are essentially same, False otherwise
+    """
+    x1, y1, x2, y2 = bbox
+
+    # Extract regions
+    light_region = light_image[y1:y2, x1:x2]
+    dark_region = dark_image[y1:y2, x1:x2]
+
+    # Convert to grayscale for simple comparison
+    light_gray = cv2.cvtColor(light_region, cv2.COLOR_BGR2GRAY)
+    dark_gray = cv2.cvtColor(dark_region, cv2.COLOR_BGR2GRAY)
+
+    # Compute absolute pixel-wise difference
+    pixel_diff = np.abs(light_gray.astype(np.int16) - dark_gray.astype(np.int16))
+    mean_diff = np.mean(pixel_diff)
+
+    # If mean difference is below threshold, consider pixels identical
+    return mean_diff < threshold
+
+
+def icon_inconsistency(light_image_path, dark_image_path, json_path, output_image_dir):
     light_image = load_image(light_image_path)
     dark_image = load_image(dark_image_path)
     json_data = load_json(json_path)
 
-    if light_image is None or dark_image is None:
-        print(f"Error: Image not found or cannot be read at specified paths.")
-        return
     if light_image.shape[:2] != dark_image.shape[:2]:
-        dark_image = cv2.resize(dark_image, (light_image.shape[1], light_image.shape[0]))
+        dark_image = cv2.resize(dark_image,
+                                (light_image.shape[1], light_image.shape[0]))
 
+    light_results = analyze_icon_contrast(light_image, json_data)
+    dark_results = analyze_icon_contrast(dark_image, json_data)
+    # print(light_results)
+    # print(dark_results)
 
+    failed = []
 
-    light_image_detection, failed_ratio_light = analyze_icon_constrast(light_image, json_data, draw_bounding_box = False)
-    dark_image_detection, failed_ratio_dark = analyze_icon_constrast(dark_image, json_data, draw_bounding_box = True)
+    for light_res, dark_res in zip(light_results, dark_results):
+        light_ratio = light_res["contrast_ratio"]
 
-    # combine the light and dark mode image result
-    combine_light_dark_image = combine_images_side_by_side(light_image_detection, dark_image_detection)
+        print("l", light_ratio)
+        dark_ratio = dark_res["contrast_ratio"]
+        print("d",dark_ratio)
+        col_min, row_min, col_max, row_max = dark_res["bbox"]
 
-    # save the image in icon inconsistency directory
-    cv2.imwrite(output_image_dir, combine_light_dark_image)
+        # Check 1: both low contrast? ignore
+        # if light_ratio < 0.5 and dark_ratio < 0.5:
+        #     continue
 
-    combine_ratio = failed_ratio_light + failed_ratio_dark
+        # Check 2: pixel similarity? ignore
+        # if compare_light_dark_mode_pixels(light_image, dark_image, dark_res["bbox"]):
+        #     continue
 
-    if failed_ratio_dark or (failed_ratio_light and failed_ratio_dark):
-        final_ratio.append({
-            "low_contrast_icon_light": failed_ratio_light,
-            "low_contrast_icon_dark": failed_ratio_dark,
-            "problematic file": output_image_dir
+        # Otherwise, draw bounding box
+        cv2.rectangle(
+            dark_image,
+            (col_min, row_min),
+            (col_max, row_max),
+            (0, 0, 255),
+            2
+        )
+
+        failed.append({
+            "light_ratio": light_ratio,
+            "dark_ratio": dark_ratio,
+            "bbox": dark_res["bbox"]
         })
 
-    return final_ratio
+    combined = combine_images_side_by_side(light_image, dark_image)
+    cv2.imwrite(output_image_dir, combined)
+
+    return failed
+
 
 
