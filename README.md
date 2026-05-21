@@ -29,6 +29,9 @@ Our approach detects four types of inconsistency:
 - data_collection- collect the dataset 
 
 - example_dataset- sample dataset to run the quick detection
+- llm_fewshot - fewshot prompt with LLM api (gpt4.0, gemini-2.5, claude-opus-4, grok-4)
+- Sensetivity_analysis - sensitivity analysis for IoU, areaDiff, ColDiff for each parameter by ±10% and ±20% on randomly selected 323 pairs
+
 
 
 ## How to replicate our work
