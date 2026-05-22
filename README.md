@@ -67,7 +67,7 @@ Our approach detects four types of inconsistency:
 
   -  Text detection run the upstage OCR: upstage_ocr.py
 
-  - Detect GUI element using UIED detection - link(https://github.com/MulongXie/UIED)
+  - Detect GUI element using UIED detection - [link](https://github.com/MulongXie/UIED)
 
   - Run: resize_image.py 
 
@@ -76,5 +76,12 @@ Our approach detects four types of inconsistency:
 3. Once you have collected the dataset and performed the preprocessing, 
    - The detection process and repair are the same as quick run
 
-## Our experiment dataset is available at https://zenodo.org/records/17141637
+## Our experiment dataset is available at [LINK](https://zenodo.org/records/17141637)
 
+
+## Sensitivity Analysis 
+
+- IoU Sensitivity Analysis Screenshot Wise
+[areaDiff_sensitivity_analysis_screenshotwise](chromaeye/sensetivity_analysis/areaDiff_sensitivity_analysis_screenshotwise.pdf)
+- [colDiff_sensitivity_analysis.pdf](chromaeye/sensetivity_analysis/colDiff_sensitivity_analysis.pdf)
+- [iou_sensitivity_analysis_screenshotwise.pdf](chromaeye/sensetivity_analysis/iou_sensitivity_analysis_screenshotwise.pdf)
