@@ -82,6 +82,8 @@ Our approach detects four types of inconsistency:
 ## Sensitivity Analysis 
 
 - IoU Sensitivity Analysis Screenshot Wise
-[areaDiff_sensitivity_analysis_screenshotwise](chromaeye/sensetivity_analysis/areaDiff_sensitivity_analysis_screenshotwise.pdf)
-- [colDiff_sensitivity_analysis.pdf](chromaeye/sensetivity_analysis/colDiff_sensitivity_analysis.pdf)
-- [iou_sensitivity_analysis_screenshotwise.pdf](chromaeye/sensetivity_analysis/iou_sensitivity_analysis_screenshotwise.pdf)
+![iou_sensitivity_analysis_screenshotwise.png](chromaeye/sensetivity_analysis/iou_sensitivity_analysis_screenshotwise.png)
+- colDiff Sensitivity Analysis
+![colDiff_sensitivity_analysis.png](chromaeye/sensetivity_analysis/colDiff_sensitivity_analysis.png)
+- areaDiff Sensitivity Analysis Screenshot Wise
+![areaDiff_sensitivity_analysis_screenshotwise.png](chromaeye/sensetivity_analysis/areaDiff_sensitivity_analysis_screenshotwise.png)
