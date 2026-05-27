@@ -162,7 +162,7 @@ proportion of agreement expected purely by random chance.
 
 ## iii. How to replicate our work
 
-1. Quick Run 
+Quick Run 
  - Inconsistency Detection 
    - Run chroma_eye.py
    
@@ -170,12 +170,15 @@ proportion of agreement expected purely by random chance.
    
    - For more details: chromaeye/chroma_detection/description
    
-2. Repair 
-   - Choose the inconsistency you want to repair
+[//]: # (2. Repair )
 
-   - Run chroma_repair.py
+[//]: # (   - Choose the inconsistency you want to repair)
 
-   - For more description: /chromaeye/chroma_repair/description
+[//]: # ()
+[//]: # (   - Run chroma_repair.py)
+
+[//]: # ()
+[//]: # (   - For more description: /chromaeye/chroma_repair/description)
 
 ## To replicate the work from scratch 
 
@@ -193,7 +196,7 @@ proportion of agreement expected purely by random chance.
 
   -  Text detection run the upstage OCR: upstage_ocr.py
 
-  - Detect GUI element using UIED detection - [link](https://github.com/MulongXie/UIED)
+  - Detect GUI element using UIED detection - [UIED](https://github.com/MulongXie/UIED)
 
   - Run: resize_image.py 
 
